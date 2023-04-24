@@ -45,7 +45,7 @@ section#resultado{
 section#resultado > div#cabecalho{
 
     background-image: linear-gradient(to top,#6441FD, #312CEA);
-    height: 45vh;
+    height: 35vh;
     display: block;
     padding: 10px;
     border-radius: 0px 0px 30px 30px;
