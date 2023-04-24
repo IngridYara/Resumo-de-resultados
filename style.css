@@ -34,7 +34,7 @@ main{
 section#resultado{
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     width: 350px;
     height: 620px;
@@ -84,7 +84,7 @@ div#cabecalho > p > span#posicao{
 
     padding: 30px;
     font-size: 4em;
-    color:white;
+    color:rgb(255, 0, 0);
     font-weight: bolder;
 
 }
