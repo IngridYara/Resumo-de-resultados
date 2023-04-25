@@ -10,13 +10,13 @@
     
     body{
 
-        background-color:rgba(255, 0, 238, 0.421);
+        background-color:rgba(51, 0, 255, 0.421);
     }
 
     section#resultado{
 
-        width: 419px;
-        height: 820px;
+        width: 417px;
+        height: 832px;
         background-color: white;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
         border-radius: 0px;
@@ -28,7 +28,7 @@
         position: absolute;
         top: 21%;
         left: 50%;
-        width: 398px;
+        width: 399px;
         height: 450px;
         transform: translate(-50%, -50%);
 
@@ -74,6 +74,13 @@
 
         margin-top: 400px;
         padding: 20px;
+    }
+
+    div#summary > h2{
+
+        padding-top:10px ;
+        font-size: 1.5em;
+        
     }
 
     div#summary > ul > li{
