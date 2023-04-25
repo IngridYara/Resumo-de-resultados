@@ -15,7 +15,7 @@
 
     section#resultado{
 
-        width: 417px;
+        width: 420px;
         height: 832px;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
         border-radius: 0px;
@@ -27,7 +27,7 @@
         position: absolute;
         top: 21%;
         left: 50%;
-        width: 399px;
+        width: 409px;
         height: 450px;
         transform: translate(-50%, -50%);
 
@@ -65,8 +65,7 @@
 
         padding-top: 20px;
         font-size: 1.2em;
-        line-height: 25px;
-        
+        line-height: 25px;   
     }
 
     div#summary{
@@ -210,7 +209,7 @@
 
     div#summary > h2{
 
-        padding-top:20px ;
+        padding-top:25px ;
         font-size: 1.7em;
         margin-bottom: 200px;
     }

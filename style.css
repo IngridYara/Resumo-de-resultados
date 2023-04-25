@@ -88,9 +88,9 @@ div#cabecalho > h2{
 
 }
 
-p{
+p#scored{
    line-height: 22px;
-
+   word-break:normal;
 }
 
 div#summary{
