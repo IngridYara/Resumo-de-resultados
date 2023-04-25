@@ -37,10 +37,8 @@ section#resultado{
     top: 35%;
     left: 50%;
     width: 350px;
-    height: 730px;
-    background-color: white;
-    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
-    border-radius: 30px;
+    height: 620px;
+   
     transform: translate(-50%, -50%);
 }
 
@@ -67,7 +65,7 @@ div#cabecalho > p#destaque {
     background-image: linear-gradient(to bottom,#4925D1, #4636F1);
     border-radius: 50%;
     position: absolute;
-    top: 13%;
+    top: 16%;
     left: 50%;
     width: 120px;
     height: 120px;
@@ -183,5 +181,5 @@ main > section > div#summary input[type=submit]{
 
 main > section > div#summary input[type=submit]:hover{
 
-    background-color: #6341fd88;
+    background-color: #6441FD;
 }
