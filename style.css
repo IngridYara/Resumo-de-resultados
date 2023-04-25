@@ -37,7 +37,7 @@ section#resultado{
     top: 47%;
     left: 50%;
     width: 350px;
-    height: 810px;
+    height: 860px;
     background-color: white;
     box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
     border-radius: 30px;
@@ -47,12 +47,18 @@ section#resultado{
 section#resultado > div#cabecalho{
 
     background-image: linear-gradient(to top,#6441FD, #312CEA);
-    height: 35vh;
+    position: absolute;
+    top:32%;
+    left:50%;
+    width: 329px;
+
     display: block;
     padding: 10px;
     border-radius: 0px 0px 30px 30px;
     text-align: center;
     color: lightgray;
+
+    transform: translate(-50%, -50%);
     
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.444);
 }
@@ -67,7 +73,7 @@ div#cabecalho > p#destaque {
     background-image: linear-gradient(to bottom,#4925D1, #4636F1);
     border-radius: 50%;
     position: absolute;
-    top: 13%;
+    top: 34%;
     left: 50%;
     width: 120px;
     height: 120px;
@@ -107,6 +113,7 @@ p{
 
 div#summary{
     padding: 20px;
+    margin-top: 400px;
 }
 
 div#summary > h2{
@@ -115,6 +122,7 @@ div#summary > h2{
     font-weight: bolder;
     font-size: 1.3em;
     padding-bottom: 20px;
+    padding-top: 10px;
 
 }
 
