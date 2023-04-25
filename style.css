@@ -34,7 +34,7 @@ main{
 section#resultado{
 
     position: absolute;
-    top: 56%;
+    top: 63%;
     left: 50%;
     width: 350px;
     height: 800px;
@@ -67,7 +67,7 @@ div#cabecalho > p#destaque {
     background-image: linear-gradient(to bottom,#4925D1, #4636F1);
     border-radius: 50%;
     position: absolute;
-    top: 14%;
+    top: 13%;
     left: 50%;
     width: 120px;
     height: 120px;
