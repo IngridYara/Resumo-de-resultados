@@ -17,7 +17,6 @@
 
         width: 417px;
         height: 832px;
-        background-color: white;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
         border-radius: 0px;
         
@@ -103,8 +102,7 @@
         height: 710px;
         border-radius: 30px 30px 30px 30px;
 
-        transform: translate(-50%, -50%);
-        
+        transform: translate(-50%, -50%);   
     }  
 
     section#resultado > div#cabecalho {
@@ -112,6 +110,39 @@
         border-radius: 0px 0px 30px 30px;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
     }
+
+    div#cabecalho > h3{
+
+        font-size: 1.3em;
+        
+    }
+
+    div#cabecalho > p#destaque{
+
+        position: absolute;
+        left:50%;
+        top:15%;
+        width: 135px;
+        height: 135px;
+        transform: translate(-50%, -50%);
+       
+    }
+
+    span#negrito{
+
+        padding: 30px;
+        font-size: 3.5em;
+        color:rgb(255, 255, 255);
+        font-weight: bolder;
+        
+    
+    }
+
+    div#cabecalho > h2{
+        margin-top: 80px;
+    }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width:992px){
@@ -123,7 +154,7 @@
     section#resultado{
         top: 55%;
         width: 70vw;
-        height: 450px;
+        height: 430px;
         box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
         border-radius: 30px;
     }
@@ -135,19 +166,27 @@
         border-radius: 30px 30px 30px 30px;
     }
 
+    div#cabecalho > h3{    
+        padding: 20px;
+        font-size: 1.5em;
+        
+    }
+
+   
     div#cabecalho > p#destaque{
 
         position: absolute;
         left:24%;
-        top:22%;
-
+        top:32.5%;
+        width: 160px;
+        height: 160px;
         transform: translate(-50%, -50%);
     }
 
-    div#cabecalho > h3{    
-        padding: 20px;
-        font-size: 1.2em;
-    
+    div#cabecalho > h2{
+
+        font-size: 1.9em;
+        margin-top: 140px;
     }
 
     section#resultado > div#cabecalho > p#scored{
@@ -181,7 +220,6 @@
         margin-bottom: 5px;
         padding: 11px;
         width: 200px;
-       
     }
 
     div#summary > ul > li#teste1{
@@ -240,23 +278,34 @@
     }
 
     div#cabecalho > h3{    
-        padding: 20px;
-        font-size: 1.2em;
+        padding: 30px;
+        font-size: 1.6em;
     
-    }
-
-    section#resultado > div#cabecalho > p#scored{
-
-        font-size: 1.1em;
     }
 
     div#cabecalho > p#destaque{
 
         position: absolute;
         left:24%;
-        top:22%;
+        top:36%;
+        width: 180px;
+        height: 180px;
 
         transform: translate(-50%, -50%);
+    }
+
+    div#cabecalho > h2{
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 1.7em;
+        margin-top: 140px;
+    
+    }
+
+    section#resultado > div#cabecalho > p#scored{
+
+        font-size: 1.1em;
     }
 
     section#resultado > div#summary{
@@ -342,31 +391,45 @@
     div#cabecalho > h3{  
         margin-top: 10px;  
         padding: 20px;
-        font-size: 1.3em;
+        font-size: 1.7em;
     
     }
 
     div#cabecalho > p#destaque{
 
         position: absolute;
-        top:29%;
+        top:35%;
         left:24%;
-        width: 140px;
-        height: 140px;
+        width: 200px;
+        height: 200px;
 
         transform: translate(-50%, -50%);
     }
 
+    div#cabecalho > p > span#posicao{
+        font-size: 1.25em;
+    }
+
+    span#negrito{
+
+        padding: 30px;
+        font-size: 5.5em;
+        color:rgb(255, 255, 255);
+        font-weight: bolder;
+    
+    }
+
     div#cabecalho > h2{
 
-        font-size: 1.5em;
-        margin-top: 110px;
+        font-size: 2.5em;
+        margin-top: 160px;
     }
 
     section#resultado > div#cabecalho > p#scored{
 
-        font-size: 1.1em;
+        font-size: 1.2em;
         padding-top: 15px;
+        line-height: 25px;
     }
 
     section#resultado > div#summary{
@@ -382,7 +445,7 @@
 
     div#summary > h2{
 
-        padding-top: 20px;
+        padding-top: 30px;
         font-size: 1.7em;
         margin-bottom: 200px;
     }
@@ -392,6 +455,7 @@
         margin-bottom: 5px;
         padding: 11px;
         width: 270px;
+        font-size: 1.2em;
      
     }
 
@@ -399,25 +463,25 @@
           
         position: absolute;
         top:18%;
-        word-spacing:120px;
+        word-spacing:100px;
     }
 
     div#summary > ul > li#teste2{
         position: absolute;
         top:33%;
-        word-spacing: 120px;
+        word-spacing: 100px;
     }
 
     div#summary > ul > li#teste3{
         position: absolute;
         top:48%;
-        word-spacing: 140px;
+        word-spacing: 120px;
     }
 
     div#summary > ul > li#teste4{
         position: absolute;
         top:63%;
-        word-spacing: 140px
+        word-spacing: 120px
     }
 
     main > section > div#summary input[type=submit]{
