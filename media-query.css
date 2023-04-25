@@ -10,16 +10,16 @@
     
     body{
 
-        background-color:rgba(0, 242, 255, 0.421);
+        background-color:rgba(255, 166, 0, 0.421);
     }
 
     section#resultado{
 
-        width: 405px;
-        height: 800px;
+        width: 407px;
+        height: 820px;
         background-color: white;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
-        border-radius: 30px;
+        border-radius: 0px;
         
     }
 
@@ -74,6 +74,12 @@
 
         margin-top: 400px;
         padding: 20px;
+    }
+
+    div#summary > ul > li{
+
+       font-size: 1.2em;
+       
     }
 
 }
