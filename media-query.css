@@ -10,26 +10,20 @@
     
     body{
 
-        background-color:rgb(49, 94, 60);
+        background-color:rgb(255, 225, 0);
     }
 
     section#resultado{
 
         width: 400px;
-        height: 750px;
+        height: 800px;
         background-color: white;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
         border-radius: 30px;
         
     }
 
-    div#cabecalho > h2{
-        
-        margin-top: 90px;
-    
-    }
-
-     section#resultado > div#cabecalho {
+    section#resultado > div#cabecalho {
 
         position: absolute;
         top: 21%;
@@ -42,10 +36,17 @@
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
     }
 
+    div#cabecalho > h3{    
+        padding: 20px;
+        font-size: 1.1em;
+        margin-top: 100px;
+    
+    }
+
     div#cabecalho > p#destaque {
       
         position: absolute;
-        top: 47%;
+        top: 43%;
         left: 50%;
         width: 120px;
         height: 120px;
@@ -54,10 +55,9 @@
        
     }
 
-    div#cabecalho > h3{    
-        padding: 20px;
-        font-size: 1.1em;
-        margin-top: 110px;
+    div#cabecalho > h2{
+        
+        margin-top: 80px;
     
     }
 
