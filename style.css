@@ -19,17 +19,7 @@
     font-family: 'Hanken';
 }
 
-body, html{
 
-    width: 97vw;
-    height: 100vh;
-}
-
-main{
-    position: relative;
-    width: 97vw;
-    height: 100vh;
-}
 
 section#resultado{
 
