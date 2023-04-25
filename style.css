@@ -37,7 +37,7 @@ section#resultado{
     top: 35%;
     left: 50%;
     width: 350px;
-    height: 730px;
+    height: 690px;
     background-color: white;
     box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
     border-radius: 30px;
@@ -47,7 +47,7 @@ section#resultado{
 section#resultado > div#cabecalho{
 
     background-image: linear-gradient(to top,#6441FD, #312CEA);
-    height: 40vh;
+    height: 35vh;
     display: block;
     padding: 10px;
     border-radius: 0px 0px 30px 30px;
