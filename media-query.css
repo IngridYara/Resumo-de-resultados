@@ -8,10 +8,6 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px){
 
-    body{
-        background-color: aqua;
-    }
-
     section#resultado{
         position: absolute;
         top:50%;
@@ -27,10 +23,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width:992px){
-    
-    body{
-        background-color: yellow;
-    }
 
     section#resultado{
         top: 50%;
@@ -112,10 +104,6 @@
 
 @media screen and (min-width:992px) and (max-width:1200px) {
 
-    body{
-        background-color: bisque;
-    }
-
     section#resultado{
         top: 50%;
         width: 60vw;
@@ -157,8 +145,6 @@
         margin-bottom: 5px;
         padding: 11px;
         width: 220px;
-     
-    
     }
 
     div#summary > ul > li#teste1{
@@ -197,10 +183,6 @@
 }
 
 @media screen and (min-width:1200px){
-    
-    body{
-        background-color: rgb(42, 251, 15);
-    }
 
     section#resultado{
         top: 50%;
@@ -278,5 +260,5 @@
         top:75%;
         width: 290px;
     }
-    
+   
 }
