@@ -6,26 +6,6 @@
 4. *Desktop: 992px até 1200px*
 5. *Grandes telas: acima de 1200px**/
 
-@media screen and (max-width: 600px){
-
-    body{
-        background-color: brown;
-    }
-    
- 
-    section#resultado{
-        position: absolute;
-        top: 50%;
-        border-radius: 0px;
-    }
-
-    section#resultado > div#cabecalho{
-
-        height: 48vh;
-      
-    }
-}
-
 @media screen and (min-width: 600px) and (max-width: 768px){
 
     body{
