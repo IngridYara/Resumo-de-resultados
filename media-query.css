@@ -10,12 +10,12 @@
     
     body{
 
-        background-color:rgba(255, 166, 0, 0.421);
+        background-color:rgba(255, 0, 238, 0.421);
     }
 
     section#resultado{
 
-        width: 407px;
+        width: 419px;
         height: 820px;
         background-color: white;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
@@ -28,11 +28,11 @@
         position: absolute;
         top: 21%;
         left: 50%;
-        width: 385px;
+        width: 398px;
         height: 450px;
         transform: translate(-50%, -50%);
 
-        border-radius:  30px;
+        border-radius:  0px 0px 30px 30px;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
     }
 
