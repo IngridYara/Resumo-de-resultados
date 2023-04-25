@@ -10,7 +10,7 @@
     
     body{
 
-        background-color:yellow;
+        background-color:rgb(77, 255, 0);
     }
 
     section#resultado{
@@ -18,8 +18,8 @@
         position: absolute;
         top: 60%;
         left: 50%;
-        width: 485.5px;
-        height: 745px;
+        width: 420px;
+        height: 765px;
         background-color: white;
         box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
         border-radius: 0px;
@@ -64,7 +64,7 @@
     }
 
     section#resultado{
-        top: 50%;
+        top: 55%;
         width: 70vw;
         height: 450px;
         box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
