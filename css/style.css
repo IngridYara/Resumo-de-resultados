@@ -27,7 +27,7 @@ section#resultado{
     width: 350px;
     height: 745px;
     background-color:hsl(0, 0%, 100%);
-    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+    
     border-radius: 30px;
     transform: translate(-50%, -50%);
 }
