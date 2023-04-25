@@ -10,12 +10,12 @@
     
     body{
 
-        background-color:rgb(255, 225, 0);
+        background-color:rgba(0, 242, 255, 0.421);
     }
 
     section#resultado{
 
-        width: 400px;
+        width: 405px;
         height: 800px;
         background-color: white;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
@@ -28,7 +28,7 @@
         position: absolute;
         top: 21%;
         left: 50%;
-        width: 380px;
+        width: 385px;
         height: 450px;
         transform: translate(-50%, -50%);
 
@@ -38,7 +38,7 @@
 
     div#cabecalho > h3{    
         padding: 20px;
-        font-size: 1.1em;
+        font-size: 1.5em;
         margin-top: 100px;
     
     }
@@ -46,10 +46,10 @@
     div#cabecalho > p#destaque {
       
         position: absolute;
-        top: 43%;
+        top: 48%;
         left: 50%;
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
         margin-top: 25px;
         transform: translate(-50%, -50%);
        
@@ -57,16 +57,16 @@
 
     div#cabecalho > h2{
         
-        margin-top: 80px;
+        margin-top: 100px;
+        font-size: 2em;
     
     }
 
     section#resultado > div#cabecalho > p#scored{
 
-        padding-top: 10px;
-        font-size: 1.1em;
+        padding-top: 20px;
+        font-size: 1.2em;
         line-height: 25px;
-        
         
     }
 
