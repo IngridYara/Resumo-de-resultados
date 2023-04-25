@@ -1,187 +1,396 @@
-/*Paleta de cores do gradiente:
+@charset "utf-8";
 
-    1- #6441FD
-    2- #4B36F3
-    3- #312CEA
-*/
+/*1. *Pequenas telas: até 600px*
+2. *Celular: de 600px até 768px*
+3. *Tablet: 768px até 992px*
+4. *Desktop: 992px até 1200px*
+5. *Grandes telas: acima de 1200px**/
 
-@font-face {
-    font-family: 'Hanken';
-    src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
-    font-weight: normal;
-    font-size: normal;
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-size: 1em;
-    font-family: 'Hanken';
-}
-
-body, html{
-
-    width: 100vw;
-    height: 100vh;
-}
-
-main{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
-section#resultado{
-
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    width: 350px;
-    height: 810px;
-    background-color: white;
-    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
-    border-radius: 30px;
-    transform: translate(-50%, -50%);
-}
-
-section#resultado > div#cabecalho{
-
-    background-image: linear-gradient(to top,#6441FD, #312CEA);
-    height: 35vh;
-    display: block;
-    padding: 10px;
-    border-radius: 0px 0px 30px 30px;
-    text-align: center;
-    color: lightgray;
+@media screen and (max-width:600px) {
     
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.444);
+    body{
+
+        background-color:rgb(255, 142, 36);
+    }
+
+    section#resultado{
+
+        width: 400px;
+        height: 750px;
+        background-color: white;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
+        border-radius: 30px;
+        
+    }
+
+     section#resultado > div#cabecalho {
+
+        position: absolute;
+        top: 21%;
+        left: 50%;
+        width: 380px;
+        height: calc(100% - 457px);
+        transform: translate(-50%, -50%);
+
+        border-radius:  30px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
+    }
+
+    div#cabecalho > p#destaque {
+      
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        width: 120px;
+        height: 120px;
+        margin-top: 25px;
+        transform: translate(-50%, -50%);
+       
+    }
+
+    div#summary{
+
+        margin-top: 340px;
+        padding: 20px;
+    }
+
 }
 
-div#cabecalho > h3{    
-    padding: 20px;
-    font-size: 1.1em;
+@media screen and (min-width: 600px) and (max-width: 768px){
 
+    body{
+        background-color: bisque;
+    }
+
+    section#resultado{
+        position: absolute;
+        top:55%;
+        height: 710px;
+        border-radius: 30px 30px 30px 30px;
+
+        transform: translate(-50%, -50%);
+        
+    }  
+
+    section#resultado > div#cabecalho {
+
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
+    }
 }
 
-div#cabecalho > p#destaque {
-    background-image: linear-gradient(to bottom,#4925D1, #4636F1);
-    border-radius: 50%;
-    position: absolute;
-    top: 13%;
-    left: 50%;
-    width: 120px;
-    height: 120px;
-    margin-top: 25px;
-    transform: translate(-50%, -50%);
+@media screen and (min-width: 768px) and (max-width:992px){
+
+    body{
+        background-color: brown;
+    }
+
+    section#resultado{
+        top: 55%;
+        width: 70vw;
+        height: 450px;
+        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+        border-radius: 30px;
+    }
+
+    section#resultado > div#cabecalho{
+        float: left;
+        width:45%;
+        height: 96%;
+        border-radius: 30px 30px 30px 30px;
+    }
+
+    div#cabecalho > p#destaque{
+
+        position: absolute;
+        left:24%;
+        top:22%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    div#cabecalho > h3{    
+        padding: 20px;
+        font-size: 1.2em;
+    
+    }
+
+    section#resultado > div#cabecalho > p#scored{
+
+        padding-top: 10px;
+        font-size: 1.1em;
+        line-height: 25px;
+        
+    }
+
+    section#resultado > div#summary{
+        float: right;
+        width: 45%;
+        height: 100%;
+    }
+
+    div#summary{
+        padding: 0px;
+      
+    }
+
+    div#summary > h2{
+
+        padding-top:20px ;
+        font-size: 1.7em;
+        margin-bottom: 200px;
+    }
+
+    div#summary > ul > li{
+
+        margin-bottom: 5px;
+        padding: 11px;
+        width: 200px;
+       
+    }
+
+    div#summary > ul > li#teste1{
+          
+        position: absolute;
+        top:18%;
+        word-spacing:50px;
+    }
+
+    div#summary > ul > li#teste2{
+        position: absolute;
+        top:33%;
+        word-spacing: 50px;
+    }
+
+    div#summary > ul > li#teste3{
+        position: absolute;
+        top:48%;
+        word-spacing: 60px;
+    }
+
+    div#summary > ul > li#teste4{
+        position: absolute;
+        top:63%;
+        word-spacing: 60px
+    }
+
+    main > section > div#summary input[type=submit]{
+
+        padding: 10px;
+        position: absolute;
+        top:75%;
+        width: 230px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    body{
+        background-color: blueviolet;
+    }
+
+    section#resultado{
+        top: 50%;
+        width: 60vw;
+        height: 450px;
+        border-radius: 30px;
+        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+    }
+
+    section#resultado > div#cabecalho{
+        float: left;
+        width:45%;
+        height: 96%;
+        border-radius: 30px 30px 30px 30px;
+    }
+
+    div#cabecalho > h3{    
+        padding: 20px;
+        font-size: 1.2em;
+    
+    }
+
+    section#resultado > div#cabecalho > p#scored{
+
+        font-size: 1.1em;
+    }
+
+    div#cabecalho > p#destaque{
+
+        position: absolute;
+        left:24%;
+        top:22%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    section#resultado > div#summary{
+        float: right;
+        width: 45%;
+        height: 100%;
+    }
+
+    div#summary{
+        padding: 0px;
+      
+    }
+
+    div#summary > h2{
+
+        padding-top: 20px;
+        font-size: 1.7em;
+        margin-bottom: 200px;
+    }
+
+    div#summary > ul > li{
+
+        margin-bottom: 5px;
+        padding: 11px;
+        width: 220px;
+    }
+
+    div#summary > ul > li#teste1{
+          
+        position: absolute;
+        top:18%;
+        word-spacing:70px;
+    }
+
+    div#summary > ul > li#teste2{
+        position: absolute;
+        top:33%;
+        word-spacing: 70px;
+    }
+
+    div#summary > ul > li#teste3{
+        position: absolute;
+        top:48%;
+        word-spacing: 90px;
+    }
+
+    div#summary > ul > li#teste4{
+        position: absolute;
+        top:63%;
+        word-spacing: 90px
+    }
+
+    main > section > div#summary input[type=submit]{
+
+        padding: 10px;
+        position: absolute;
+        top:75%;
+        width: 240px;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    body{
+        background-color: aqua;
+    }
+
+    section#resultado{
+        top: 50%;
+        width: 60vw;
+        height: 480px;
+        border-radius: 30px;
+        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+    }
+
+    section#resultado > div#cabecalho{
+        float: left;
+        width:45%;
+        height: 96%;
+        border-radius: 30px 30px 30px 30px;
+    }
+
+    div#cabecalho > h3{  
+        margin-top: 10px;  
+        padding: 20px;
+        font-size: 1.3em;
+    
+    }
+
+    div#cabecalho > p#destaque{
+
+        position: absolute;
+        top:29%;
+        left:24%;
+        width: 140px;
+        height: 140px;
+
+        transform: translate(-50%, -50%);
+    }
+
+    div#cabecalho > h2{
+
+        font-size: 1.5em;
+        margin-top: 110px;
+    }
+
+    section#resultado > div#cabecalho > p#scored{
+
+        font-size: 1.1em;
+        padding-top: 15px;
+    }
+
+    section#resultado > div#summary{
+        float: right;
+        width: 45%;
+        height: 100%;
+    }
+
+    div#summary{
+        padding: 0px;
+      
+    }
+
+    div#summary > h2{
+
+        padding-top: 20px;
+        font-size: 1.7em;
+        margin-bottom: 200px;
+    }
+
+    div#summary > ul > li{
+
+        margin-bottom: 5px;
+        padding: 11px;
+        width: 270px;
+     
+    }
+
+    div#summary > ul > li#teste1{
+          
+        position: absolute;
+        top:18%;
+        word-spacing:120px;
+    }
+
+    div#summary > ul > li#teste2{
+        position: absolute;
+        top:33%;
+        word-spacing: 120px;
+    }
+
+    div#summary > ul > li#teste3{
+        position: absolute;
+        top:48%;
+        word-spacing: 140px;
+    }
+
+    div#summary > ul > li#teste4{
+        position: absolute;
+        top:63%;
+        word-spacing: 140px
+    }
+
+    main > section > div#summary input[type=submit]{
+
+        padding: 10px;
+        position: absolute;
+        top:75%;
+        width: 290px;
+    }
    
-}
-
-div#cabecalho > p > span#posicao{
-    position: absolute;
-    top: 60%;
-    transform: translate(-50%, -50%);
-}
-
- span#negrito{
-
-    padding: 30px;
-    font-size: 4em;
-    color:rgb(0, 139, 39);
-    font-weight: bolder;
-
-}
-
-div#cabecalho > h2{
-    padding: 10px;
-    font-weight: bold;
-    color: white;
-    font-size: 1.5em;
-    margin-top: 70px;
-
-}
-
-p{
-   line-height: 22px;
-
-}
-
-div#summary{
-    padding: 20px;
-}
-
-div#summary > h2{
-
-    color:#313E59;
-    font-weight: bolder;
-    font-size: 1.3em;
-    padding-bottom: 20px;
-
-}
-
-
-div#summary > ul > li{
-
-    padding: 13px;
-
-    list-style-position: inside;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-   
-}
-
-div#summary > ul > li#teste1 {
-   
-    word-spacing: 136px;
-    background-color: #FFF7F5;
-    color: #E77574;
-    list-style-image: url(./assets/images/icon-reaction.svg);
-}
-
-div#summary > ul > li#teste2{
-    word-spacing: 140px;
-    background-color: #FFFCF1;
-    color: #F2CF8D;
-    list-style-image: url(./assets/images/icon-memory.svg);
-}
-
-div#summary > ul > li#teste3{
-    word-spacing: 150px;
-    background-color:#F2FBFA;
-    color: #4EBF9F;
-    list-style-image: url(./assets/images/icon-verbal.svg);
-}
-
-div#summary > ul > li#teste4{
-    word-spacing: 154px;
-    background-color:#F3F3FF;
-    color: #5A69BF;
-    list-style-image: url(./assets/images/icon-visual.svg);
-}
-
-div#summary > ul > li > span.pontuacao{
-
-    color:#313e59d0
-}
-
-div#summary > ul >li > span.valor-max{
-    color: lightgray;
-}
-
-main > section > div#summary input[type=submit]{
-
-    display: block;
-    width: 100%;
-    color:white;
-    background-color: #313E59;
-    border-radius: 25px;
-    padding: 20px;
-    border-color: transparent;
-    margin-top: 25px;
-    font-size: 1.2em;
-}
-
-main > section > div#summary input[type=submit]:hover{
-
-    background-color: #6341fd88;
 }
