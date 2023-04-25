@@ -6,28 +6,69 @@
 4. *Desktop: 992px até 1200px*
 5. *Grandes telas: acima de 1200px**/
 
+@media screen and (max-width:600px) {
+    
+    body{
+
+        background-color:yellow;
+    }
+
+    section#resultado{
+
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: 485.5px;
+        height: 745px;
+        background-color: white;
+        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+        border-radius: 0px;
+        transform: translate(-50%, -50%);
+    }
+
+     section#resultado > div#cabecalho {
+
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
+    }
+
+}
+
 @media screen and (min-width: 600px) and (max-width: 768px){
+
+    body{
+        background-color: bisque;
+    }
 
     section#resultado{
         position: absolute;
-        top:50%;
-        height: 730px;
-        border-radius: 0px;
+        top:55%;
+        height: 710px;
+        border-radius: 30px 30px 30px 30px;
+
+        transform: translate(-50%, -50%);
+        
+    }  
+
+    section#resultado > div#cabecalho {
+
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
     }
-
-    section#resultado > div#cabecalho{
-
-        height: 48vh;
-      
-    }   
 }
 
 @media screen and (min-width: 768px) and (max-width:992px){
+
+    body{
+        background-color: brown;
+    }
 
     section#resultado{
         top: 50%;
         width: 70vw;
         height: 450px;
+        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+        border-radius: 30px;
     }
 
     section#resultado > div#cabecalho{
@@ -38,8 +79,26 @@
     }
 
     div#cabecalho > p#destaque{
-        left:25%;
-        top:25%
+
+        position: absolute;
+        left:24%;
+        top:22%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    div#cabecalho > h3{    
+        padding: 20px;
+        font-size: 1.2em;
+    
+    }
+
+    section#resultado > div#cabecalho > p#scored{
+
+        padding-top: 10px;
+        font-size: 1.1em;
+        line-height: 25px;
+        
     }
 
     section#resultado > div#summary{
@@ -104,10 +163,16 @@
 
 @media screen and (min-width:992px) and (max-width:1200px) {
 
+    body{
+        background-color: blueviolet;
+    }
+
     section#resultado{
         top: 50%;
         width: 60vw;
         height: 450px;
+        border-radius: 30px;
+        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
     }
 
     section#resultado > div#cabecalho{
@@ -117,9 +182,24 @@
         border-radius: 30px 30px 30px 30px;
     }
 
+    div#cabecalho > h3{    
+        padding: 20px;
+        font-size: 1.2em;
+    
+    }
+
+    section#resultado > div#cabecalho > p#scored{
+
+        font-size: 1.1em;
+    }
+
     div#cabecalho > p#destaque{
-        left:25%;
-        top:25%
+
+        position: absolute;
+        left:24%;
+        top:22%;
+
+        transform: translate(-50%, -50%);
     }
 
     section#resultado > div#summary{
@@ -179,15 +259,20 @@
         top:75%;
         width: 240px;
     }
-    
 }
 
 @media screen and (min-width:1200px){
+
+    body{
+        background-color: aqua;
+    }
 
     section#resultado{
         top: 50%;
         width: 60vw;
         height: 480px;
+        border-radius: 30px;
+        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
     }
 
     section#resultado > div#cabecalho{
@@ -197,9 +282,34 @@
         border-radius: 30px 30px 30px 30px;
     }
 
+    div#cabecalho > h3{  
+        margin-top: 10px;  
+        padding: 20px;
+        font-size: 1.3em;
+    
+    }
+
     div#cabecalho > p#destaque{
-        left:25%;
-        top:25%
+
+        position: absolute;
+        top:29%;
+        left:24%;
+        width: 140px;
+        height: 140px;
+
+        transform: translate(-50%, -50%);
+    }
+
+    div#cabecalho > h2{
+
+        font-size: 1.5em;
+        margin-top: 110px;
+    }
+
+    section#resultado > div#cabecalho > p#scored{
+
+        font-size: 1.1em;
+        padding-top: 15px;
     }
 
     section#resultado > div#summary{
