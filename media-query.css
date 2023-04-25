@@ -10,15 +10,15 @@
     
     body{
 
-        background-color:rgb(255, 60, 141);
+        background-color:rgb(255, 142, 36);
     }
 
     section#resultado{
 
-        width: 390px;
+        width: 400px;
         height: 750px;
         background-color: white;
-        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.136);
         border-radius: 30px;
         
     }
@@ -28,8 +28,8 @@
         position: absolute;
         top: 21%;
         left: 50%;
-        width: 370px;
-        height: 293px;
+        width: 380px;
+        height: calc(100% - 457px);
         transform: translate(-50%, -50%);
 
         border-radius:  30px;
