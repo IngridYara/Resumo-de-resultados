@@ -28,14 +28,13 @@
         transform: translate(-50%, -50%);
 
         border-radius:  0px 0px 30px 30px;
-        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
+        box-shadow: 10px 10px 30px rgba(165, 198, 204, 0.201);
     }
 
     div#cabecalho > h3{    
         padding: 20px;
         font-size: 1.5em;
         margin-top: 100px;
-    
     }
 
     div#cabecalho > p#destaque {
@@ -46,15 +45,13 @@
         width: 140px;
         height: 140px;
         margin-top: 25px;
-        transform: translate(-50%, -50%);
-       
+        transform: translate(-50%, -50%); 
     }
 
     div#cabecalho > h2{
         
         margin-top: 100px;
         font-size: 2em;
-    
     }
 
     section#resultado > div#cabecalho > p#scored{
@@ -73,24 +70,21 @@
     div#summary > h2{
 
         padding-top:10px ;
-        font-size: 1.5em;
-        
+        font-size: 1.5em;    
     }
 
     div#summary > ul > li{
 
-       font-size: 1.2em;
-       
+       font-size: 1.2em;  
     }
-
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px){
 
     section#resultado{
         position: absolute;
-        top:59%;
-        height: 710px;
+        top:65%;
+        height: 820px;
         border-radius: 30px 30px 30px 30px;
 
         transform: translate(-50%, -50%);   
@@ -99,13 +93,12 @@
     section#resultado > div#cabecalho {
         height: 49vh;
         border-radius: 0px 0px 30px 30px;
-        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
+        box-shadow: 10px 10px 30px rgba(165, 198, 204, 0.201);
     }
 
     div#cabecalho > h3{
 
         font-size: 1.3em;
-        
     }
 
     div#cabecalho > p#destaque{
@@ -116,7 +109,6 @@
         width: 135px;
         height: 135px;
         transform: translate(-50%, -50%);
-       
     }
 
     span#negrito{
@@ -125,15 +117,31 @@
         font-size: 3.5em;
         color:rgb(255, 255, 255);
         font-weight: bolder;
-        
-    
     }
 
     div#cabecalho > h2{
         margin-top: 80px;
     }
 
+    div#summary > ul > li#teste1{
+     
+        word-spacing: 120px;
+    }
 
+    div#summary > ul > li#teste2{
+     
+        word-spacing: 120px;
+    }
+
+    div#summary > ul > li#teste3{
+     
+        word-spacing: 134px;
+    }
+
+    div#summary > ul > li#teste4{
+     
+        word-spacing: 140px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:992px){
@@ -142,9 +150,9 @@
         top: 55%;
         width: 590px;
         height: 430px;
-        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+        box-shadow: 10px 10px 30px rgba(165, 198, 204, 0.201);
         border-radius: 30px;
-        background-color: aqua;
+     
     }
 
     section#resultado > div#cabecalho{
@@ -156,8 +164,7 @@
 
     div#cabecalho > h3{    
         padding: 20px;
-        font-size: 1.5em;
-        
+        font-size: 1.5em;  
     }
 
    
@@ -251,8 +258,8 @@
         width: 575px;
         height: 450px;
         border-radius: 30px;
-        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
-        background-color: blue;
+        box-shadow: 10px 10px 30px rgba(165, 198, 204, 0.201);
+        
     }
 
     section#resultado > div#cabecalho{
@@ -365,7 +372,7 @@
         width: 710px;
         height: 480px;
         border-radius: 30px;
-        box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+        box-shadow: 10px 10px 30px rgba(165, 198, 204, 0.201);
     }
 
     section#resultado > div#cabecalho{
