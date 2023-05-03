@@ -89,7 +89,7 @@
 
     section#resultado{
         position: absolute;
-        top:55%;
+        top:59%;
         height: 710px;
         border-radius: 30px 30px 30px 30px;
 
@@ -97,7 +97,7 @@
     }  
 
     section#resultado > div#cabecalho {
-
+        height: 49vh;
         border-radius: 0px 0px 30px 30px;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.467);
     }
@@ -140,10 +140,11 @@
 
     section#resultado{
         top: 55%;
-        width: 70vw;
+        width: 590px;
         height: 430px;
         box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
         border-radius: 30px;
+        background-color: aqua;
     }
 
     section#resultado > div#cabecalho{
@@ -247,10 +248,11 @@
 
     section#resultado{
         top: 50%;
-        width: 60vw;
+        width: 575px;
         height: 450px;
         border-radius: 30px;
         box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
+        background-color: blue;
     }
 
     section#resultado > div#cabecalho{
@@ -279,9 +281,7 @@
 
     span#negrito{
 
-     
-        font-size: 5em;
-     
+        font-size: 4em;     
     
     }
 
@@ -362,7 +362,7 @@
 
     section#resultado{
         top: 50%;
-        width: 60vw;
+        width: 710px;
         height: 480px;
         border-radius: 30px;
         box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.357);
@@ -378,7 +378,7 @@
     div#cabecalho > h3{  
         margin-top: 10px;  
         padding: 20px;
-        font-size: 1.7em;
+        font-size: 1.5em;
     
     }
 
@@ -400,7 +400,7 @@
     span#negrito{
 
         padding: 30px;
-        font-size: 5em;
+        font-size: 3.5em;
         color:rgb(255, 255, 255);
         font-weight: bolder;
     
@@ -408,7 +408,7 @@
 
     div#cabecalho > h2{
 
-        font-size: 2.5em;
+        font-size: 2em;
         margin-top: 160px;
     }
 
@@ -417,6 +417,8 @@
         font-size: 1.2em;
         padding-top: 15px;
         line-height: 25px;
+        margin-left: 20px;
+        margin-right:20px ;
     }
 
     section#resultado > div#summary{
@@ -462,7 +464,7 @@
     div#summary > ul > li#teste3{
         position: absolute;
         top:48%;
-        word-spacing: 120px;
+        word-spacing: 110px;
     }
 
     div#summary > ul > li#teste4{
