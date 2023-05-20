@@ -459,25 +459,25 @@
           
         position: absolute;
         top:18%;
-        word-spacing:100px;
+        word-spacing:90px;
     }
 
     div#summary > ul > li#teste2{
         position: absolute;
         top:33%;
-        word-spacing: 100px;
+        word-spacing:90px;
     }
 
     div#summary > ul > li#teste3{
         position: absolute;
         top:48%;
-        word-spacing: 110px;
+        word-spacing: 100px;
     }
 
     div#summary > ul > li#teste4{
         position: absolute;
         top:63%;
-        word-spacing: 120px
+        word-spacing: 105px
     }
 
     main > section > div#summary input[type=submit]{
